@@ -1,1 +1,5 @@
-node_modules/`n.vscode/`n*.pyc`n__pycache__/`n.env
+node_modules/
+.vscode/
+*.pyc
+__pycache__/
+.env

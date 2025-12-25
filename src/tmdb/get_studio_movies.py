@@ -12,7 +12,8 @@ import csv
 import requests
 import argparse
 
-API = "063c2ef1ab7738bf8ac367e4aa63f25d"
+
+API = os.getenv("TMDB_API_KEY")
 if not API:
     sys.exit("Error: TMDB_API_KEY not set. See .env.template")
 
